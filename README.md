@@ -88,6 +88,8 @@ game				"<Steam's common folder>/Black Mesa/bms/bms_sound_vo_english.vpk"
 game				"<Steam's common folder>/Black Mesa/bms/bms_sounds_misc.vpk"
 game				"<Steam's common folder>/Black Mesa/bms/bms_textures.vpk"
 ```
+If you wanna mount all files not in vpk you just use this command:
+"<Steam folder>\<game>\<game>" thats mount all files in foulder without using problems with double content.
 
 You add them after those lines:
 
@@ -116,6 +118,7 @@ These lines mount contents from source games, list goes as follow
 10. In the `Build Programs` tab, you are going to change the path of `Game executable` to `<Garry's Mod root folder>/hl2.exe`
 11. In the `Build Programs` tab, you are going to change the path of `Place compiled maps in this directory before running the game` to `<Garry's Mod root folder>/garrysmod/maps`
 12. In `Hammer++`, disable Anisotropic Filtering
+
 
 ## Example `gameinfo.txt`
 
@@ -212,7 +215,7 @@ These lines mount contents from source games, list goes as follow
 ```
 
 ## Last words
-Now you are ready to use Hammer++ and it should work. The only problem is that you have to double mount contents as Hammer++ does not support the Garry's Mod mounting way for now. So, if you are using Hammer++ you are most probably familiar with `mount.cfg` of gmod, so to mount content into Hammer++ you have to mount it in the `gameinfo.txt` file you edited earlier and add it right after those lines you added earlier `game "<path to your content>"`. If you think that I could improve something then messege me on Github or you can ping me on discord (ParSec#4563) on the [Statua Mapping](https://discord.gg/3Uq4WKNRuF) server, I do recommend you drop by and say hello, a lot of people there can help you with a lot of your problems.
+Now you are ready to use Hammer++ and it should work. (not actual)The only problem is that you have to double mount contents as Hammer++ does not support the Garry's Mod mounting way for now. So, if you are using Hammer++ you are most probably familiar with `mount.cfg` of gmod, so to mount content into Hammer++ you have to mount it in the `gameinfo.txt` file you edited earlier and add it right after those lines you added earlier `game "<path to your content>"`. If you think that I could improve something then messege me on Github or you can ping me on discord (ParSec#4563) on the [Statua Mapping](https://discord.gg/3Uq4WKNRuF) server, I do recommend you drop by and say hello, a lot of people there can help you with a lot of your problems.
 
 Now if you don't mind I'm gonna shoot myself in the face.
 Oh and I couldn't forget about you CoolGuy for asking me everyday the same question when will I make it and reminding me how disorganized I am.
